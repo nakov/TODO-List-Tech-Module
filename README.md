@@ -38,7 +38,7 @@ The `Task` entity holds 3 properties:
 * `comments` - nonempty text
 
 ## User Interface
-This is the user interface or how the application’s pages should look in their final form (fully implemented). You should have 3 pages:
+This is the user interface should consists of the following pages (under the designated routes):
 
 ### Index Page
 Route: `/` (GET)
