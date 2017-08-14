@@ -37,19 +37,23 @@ The `Task` entity holds 3 properties:
 This is the user interface or how the application’s pages should look in their final form (fully implemented). You should have 3 pages:
 
 ### Index Page
-Route: “/” (GET)
+Route: `/` (GET)
+
 List all tasks.
  
 ### Create Page
 Route: `/create` (GET and POST)
+
 `GET` shows a form to create a task. `POST` saves the form data into the database as new task.
  
 ### Delete Page
 Route: `/delete/{id}` (GET and POST)
+
 `GET` shows a form to delete a certain task. `POST` confirms deleting a task and removes the task from the database.
 
 ### Edit Page
 Route: `/edit/{id}` (GET and POST)
+
 `GET` shows a form to edit a certain task. `POST` confirms editing a task and modifies the task in the database.
  
 ## Languages and Technologies
