@@ -20,7 +20,7 @@ Your application should be built on each one of the following technologies:
 * **MongoDB** database
 
 ### Java
-* **Spring** framework (Spting MVC + Spring Boot + Spring Data)
+* **Spring** framework (Spring MVC + Spring Boot + Spring Data)
 * **Thymeleaf** view engine
 * **JPA** / **Hibernate** ORM + **Spring Data** data access
 * **MySQL** database
