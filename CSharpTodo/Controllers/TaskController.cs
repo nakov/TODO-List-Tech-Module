@@ -102,7 +102,7 @@ namespace TodoList.Controllers
             using (var db = new TodoListDbContext())
             {
                 var taskFromDb = db.Tasks.Find(task.Id);
-                if (task != null)
+                if (taskFromDb != null)
                 {
                     taskFromDb.Title = task.Title;
                     taskFromDb.Comments = task.Comments;
