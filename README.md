@@ -1,8 +1,8 @@
 # TODO-List-Tech-Module
 TODO List (in C#, Java, JS and PHP) - Exam Preparation for the Tech Module @ SoftUni (August 2017)
 
-You are assigned to create a **Simple TODO List App**. The application should hold **tasks**, which are the main entities.
-The functionality of the application should support creating, listing and deleting tasks. The application should persist the data into a database.
+You are assigned to create a **Simple TODO List App**. The application should hold **tasks**, which are the main app entities.
+The functionality of the app should support creating, listing, editing and deleting tasks. The application should persist the data into a database.
 
 ## Overview
 Your application should be built on each one of the following technologies:
