@@ -1,0 +1,17 @@
+<div id="create-wrapper">
+    <section class="create">
+        <article>
+            <form action="/edit/{{id}}" method="POST">
+                <div class="row">
+                    <label for="task">Task:</label>
+                    <input type="text" id="title" name="title" value="{{title}}">
+                </div>
+                <div class="row">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments">{{comments}}</textarea>
+                </div>
+                <button type="submit">Edit</button>
+            </form>
+        </article>
+    </section>
+</div>
