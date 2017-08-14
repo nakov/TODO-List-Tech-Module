@@ -1,0 +1,17 @@
+<div id="create-wrapper">
+    <section class="create">
+        <article>
+            <form th:action="@{/edit/{id}(id=${task.id})}" method="POST">
+                <div class="row">
+                    <label for="title">Task:</label>
+                    <input type="text" id="title" name="title" th:value="${task.title}" />
+                </div>
+                <div class="row">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" th:text="${task.comments}"></textarea>
+                </div>
+                <button type="submit">Edit</button>
+            </form>
+        </article>
+    </section>
+</div>
