@@ -3,7 +3,7 @@ TODO List - Exam Preparation for the Tech Module @ SoftUni
 
 A Symfony project (PHP + Symfony + Twig + Doctrine + MySQL)
 
-Running the project
+## Running the project
 
 1. Install the composer dependencies
 
